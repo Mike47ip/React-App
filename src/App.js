@@ -1,6 +1,16 @@
+// src/App.js
+import React from 'react';
+import './App.css';
+import SpaceXMissions from './components/SpaceXMissions';
+
 function App() {
   return (
-<h1> We ready</h1>
+    <div className="App">
+      <header className="App-header">
+        <h1>SpaceX Missions App</h1>
+        <SpaceXMissions />
+      </header>
+    </div>
   );
 }
 
